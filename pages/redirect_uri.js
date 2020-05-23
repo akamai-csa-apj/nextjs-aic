@@ -19,8 +19,8 @@ import { useState } from 'react';
 const customer_id = "00000000-0000-0000-0000-000000000000"
 
 const settings = {
-  authority: `https://v1.api.us.janrain.com/e0fe87a8-5911-4ea2-a2ea-9e98d2cf9805/login`, // library appends '/authorize'
-  client_id: "ce230c02-339f-4ba0-b434-a70588a54aba",
+  authority: `https://v1.api.us.janrain.com/xxxx/login`, // library appends '/authorize'
+  client_id: "xxxx",
   redirect_uri: "http://localhost:3000/redirect_uri",
   response_mode: "query",
 }
