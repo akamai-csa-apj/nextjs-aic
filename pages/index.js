@@ -11,10 +11,8 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
-const customer_id = "00000000-0000-0000-0000-000000000000"
-
 const settings = {
-  authority: `https://v1.api.us.janrain.com/xxxx/login`, // library appends '/authorize'
+  authority: `https://v1.api.us.janrain.com/xxxx/login`,
   client_id: "xxxx",
   redirect_uri: "http://localhost:3000/redirect_uri",
   response_type: "code",

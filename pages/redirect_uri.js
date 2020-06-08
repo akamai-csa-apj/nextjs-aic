@@ -16,10 +16,8 @@ import { useRouter } from 'next/router'
 
 import { useState } from 'react';
 
-const customer_id = "00000000-0000-0000-0000-000000000000"
-
 const settings = {
-  authority: `https://v1.api.us.janrain.com/xxxx/login`, // library appends '/authorize'
+  authority: `https://v1.api.us.janrain.com/xxxx/login`,
   client_id: "xxxx",
   redirect_uri: "http://localhost:3000/redirect_uri",
   response_mode: "query",
@@ -74,7 +72,7 @@ export default () => {
     <Container>
       <Paper>
         <Typography variant="h3" align="center">You are logged in!</Typography>
-        <Button color="secondary" variant="contained" fullWidth={true} onClick={handleStartOver}>Start Over</Button>
+        <Button color="primary" variant="contained" fullWidth={true} onClick={handleStartOver}>Start Over</Button>
         <TableContainer>
           <Table aria-label="settings table" style={{tableLayout: "fixed"}}>
             <TableBody>
