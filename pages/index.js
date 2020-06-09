@@ -1,6 +1,5 @@
 import 'babel-polyfill'
 import { UserManager } from 'oidc-client'
-
 import Container from '@material-ui/core/Container';
 import Button from '@material-ui/core/Button';
 import Table from '@material-ui/core/Table';
