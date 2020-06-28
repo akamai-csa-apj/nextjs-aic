@@ -7,6 +7,7 @@ Next.js application.
 - Chrome Browser
 - Node.js & Node Package Manager
 - Akamai Identity Cloud Hosted Login Instance
+
 **You must contact Akamai representative to deploy the instance.**
 
 # Project Set-up
@@ -22,7 +23,7 @@ parameters that you need to modify is just 2.
 - authority : Open ID Connect Provider URL
 - client_id : Akamai Identity Cloud Hosted Login OIDC Client ID
 
-```jsx:index.js
+```jsx
 const settings = {
   authority: `https://v1.api.us.janrain.com/xxxx/login`,
   client_id: "xxxx",
